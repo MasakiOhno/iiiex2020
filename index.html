@@ -33,7 +33,6 @@
 
 
 <body>
-  //読み込みまでの処理
   <div class="arjs-loader">
     <p>
       Now Loading...<br>
@@ -48,16 +47,15 @@
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
 
-    //ImageTrackingの設定
     <a-nft
       type="nft"
-      url="https://arjs-cors-proxy.herokuapp.com/https://github.com/MasakiOhno/iiiex2020/tree/main/nft/pasta"
+      url="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/trex-image/trex"
       smooth="true"
       smoothCount="10"
       smoothTolerance=".01"
       smoothThreshold="5"
     >
-    //モデルの配置
+
       <a-entity
         gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
         scale="10 10 10"
