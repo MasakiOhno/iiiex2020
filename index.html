@@ -47,28 +47,20 @@
     embedded
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
-
     <a-nft
       type="nft"
-      url="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/trex-image/trex"
+      url="https://arjs-cors-proxy.herokuapp.com/https://cdn.glitch.com/8d99eec0-4479-4e11-9a80-9993963fc1ea%2FNFT"
       smooth="true"
       smoothCount="10"
       smoothTolerance=".01"
       smoothThreshold="5"
     >
-      <a-entity 
-        dialog-popup="foo: bar"
-      > </a-entity>
-
-      <!--
-      <a-entity
-        gltf-model="https://arjs-cors-proxy.herokuapp.com/https://github.com/MasakiOhno/iiiex2020/blob/main/3dmodel/model.gltf"
-        scale="1 1 1"
-        position="0 0 0"
-      >
-      </a-entity>
-    -->
-    </a-nft>
+    <a-entity
+      gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
+      scale="5 5 5"
+      position="50 150 0"
+    > </a-entity>
+      </a-nft>
     <a-entity camera></a-entity>
   </a-scene>
 </body>
